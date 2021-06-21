@@ -18,7 +18,7 @@ def send_compliment():
     while compliment is not None:
         BOT.send_message("935567645", compliment)
         compliment = get_random_compliment()
-        sleep = random.randint(20, 30)
+        sleep = random.randint(2, 3)
         time.sleep(sleep)
 
 
