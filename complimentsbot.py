@@ -16,9 +16,9 @@ CURSOR = CONNECT.cursor()
 def send_compliment():
     compliment = get_random_compliment()
     while compliment is not None:
-        BOT.send_message("1462380163", compliment)
+        BOT.send_message("935567645", compliment)
         compliment = get_random_compliment()
-        sleep = random.randint(20000, 30000)
+        sleep = random.randint(20, 30)
         time.sleep(sleep)
 
 
