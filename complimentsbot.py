@@ -7,7 +7,7 @@ from requests import get
 from bs4 import BeautifulSoup
 import sqlite3
 
-BOT = TeleBot("1804032396:AAHQyWfsE-h4j7LjTYAOU1SaiI-2fdZ2oJk")
+BOT = TeleBot("api token")
 WEBSITE = 'http://kompli.me/komplimenty-devushke'
 CONNECT = sqlite3.connect('compliments.db')
 CURSOR = CONNECT.cursor()
